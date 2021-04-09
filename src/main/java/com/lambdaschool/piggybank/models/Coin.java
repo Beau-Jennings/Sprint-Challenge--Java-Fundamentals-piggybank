@@ -65,4 +65,9 @@ public class Coin
     {
         this.quantity = quantity;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
